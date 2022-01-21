@@ -26,7 +26,7 @@ After looking at the .csv file, "county_name" was set as index 1 of each row usi
 
 If the "county_name" in a row was not a part of our list "county_list", it was appended to latter. This ensured that "county_list" consisted of unique values. For the empty dictionary, "county_votes", I started tracking the county's vote count and for each row the vote was added to respective keys. 
 
-<img width="743" alt="Code(6,7,8)" src="https://user-images.githubusercontent.com/92544151/150612150-90ca2685-2d6e-48fe-b6b7-47f67271ca6c.png">
+<img width="767" alt="Code(6,7 8)" src="https://user-images.githubusercontent.com/92544151/150614121-27197aff-d5ec-4fda-8f50-e4692c6b488c.png">
 
 A for loop was then used to iterate through each county in "county_votes" dictionary, and "county_votes_percentage" was calculated. Inside the loop, an if statement was used to determine the winning county and get it's vote count. The results were printed to the terminal and saved to the text file. 
 
@@ -44,12 +44,9 @@ The Python script used to analyze the results can be used for many other similar
 
 <img width="519" alt="Loading dependencies and the csv file" src="https://user-images.githubusercontent.com/92544151/150613420-9290e8d5-2c19-4ca8-ae56-9906eeb4450e.png">
 
-On the other hand, if the columns numbers are different in the new file, make sure that the correct column indexes are referred in the following section of the code:
+On the other hand, if the column positions are different in the new file, make sure that the correct column indexes are referred in the following section of the code:
 
 <img width="474" alt="Code(changes_needed)" src="https://user-images.githubusercontent.com/92544151/150613647-60cc697b-92a9-421c-86b0-b9084b57599a.png">
 
-As long as these major details are taken care of, this Python script will save the results to the "election_analysis.txt" file. The results will cover the winning candidate and the county with the largest turnout. 
-
-
-
+As long as these details are taken care of, this Python script will save the results to the "election_analysis.txt" file. The results will cover the winning candidate and the county with the largest turnout. 
 
