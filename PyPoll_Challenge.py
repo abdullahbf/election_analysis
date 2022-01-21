@@ -28,7 +28,7 @@ winning_count = 0
 winning_percentage = 0
 
 # 2: Track the largest county and county voter turnout.
-largest_turnout_county = ""
+largest_county_turnout = ""
 winning_county_votes = 0
 
 
