@@ -2,7 +2,7 @@
 
 ## Overview
 
-The purpose of the project was to perform an analysis on a sample election results file (election_results.csv) using Python and determine the winning candidate and the county with the largest turnout. The results were then saved to election_analysis.txt in an easy to read format. "PyPoll.py" contains the code used for candidate results analysis. "PyPoll_Challenge.py", on the other hand, contains the code for county analysis as well as all the "PyPoll.py" code. 
+The purpose of the project was to perform an analysis on a sample election results file (election_results.csv) using Python and determining the winning candidate as well as the county with the largest turnout. The results were then saved to election_analysis.txt in an easy to read format. "PyPoll.py" contains the code used for candidate results analysis. "PyPoll_Challenge.py", on the other hand, contains the code for county analysis as well as all the "PyPoll.py" code. 
 
 ## Analysis
 
